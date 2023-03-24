@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Moters EV's</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons8-tata-motors-limited,-an-indian-multinational-automotive-manufacturing-company-16.png" type="image/png">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <img src="Logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="#" id="Avinya">Tata Avinya</a></li>
+                <li><a href="#" id="sierra">Tata Sierra</a></li>
+                <li><a href="#" id="nexon">Tata Nexon</a></li>
+                <li><a href="#" id="tiago">Tata Tiago</a></li>
+                <li><a href="#" id="punch">Tata Punch</a></li>
+            </ul>
+            <a href="#" class="btn">Contact Us</a>
+        </nav>
+
+        <div class="info">
+            <div>
+                <h2 id="speed">1.5 s</h2>
+                <p>60 mph</p>
+            </div>
+            <div>
+                <h2 id="topSpeed">200 mph</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="maxRange">500 KM</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line">
+
+            </div>
+            <div>
+                <h2 id="model">Model S</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var head = document.getElementById('header');
+        var ms = document.getElementById('Avinya');
+        var sierra = document.getElementById('sierra');
+        var nexon = document.getElementById('nexon');
+        var tiago = document.getElementById('tiago');
+        var punch = document.getElementById('punch');
+        var model = document.getElementById('model');
+        var speed = document.getElementById('speed');
+        var topSpeed = document.getElementById('topSpeed');
+        var maxRange = document.getElementById('maxRange');
+
+        Avinya.onclick = function(){
+            head.style.backgroundImage = "url(./images/avinya1.jpg)";
+            model.innerHTML = "Tata Avinya";
+            speed.innerHTML = "1.5 s";
+            topSpeed.innerHTML = "200 mph";
+            maxRange.innerHTML = "500 KM";
+        }
+        sierra.onclick = function(){
+            head.style.backgroundImage = "url(./images/sierra1.jpg)";
+            // head.style.backgroundImage = "url(sierra2.jpg)";
+            model.innerHTML = "Tata Sierra";
+            speed.innerHTML = "2.0 s";
+            topSpeed.innerHTML = "180 mph";
+            maxRange.innerHTML = "400 KM";
+        }
+        nexon.onclick = function(){
+            head.style.backgroundImage = "url(./images/nexon1.jpg)";
+            model.innerHTML = " Tata Nexon";
+            speed.innerHTML = "4.6 s";
+            topSpeed.innerHTML = "120 mph";
+            maxRange.innerHTML = "312 KM";
+        }
+        tiago.onclick = function(){
+            head.style.backgroundImage = "url(./images/tiago1.jpg)";
+            model.innerHTML = "Tata Tiago";
+            speed.innerHTML = "5.7 s";
+            topSpeed.innerHTML = "80 mph";
+            maxRange.innerHTML = "315 KM";
+        }
+        punch.onclick = function(){
+            head.style.backgroundImage = "url(./images/punch.jpg)";
+            model.innerHTML = "Tata Punch";
+            speed.innerHTML = "6.92 s";
+            topSpeed.innerHTML = "150 mph";
+            maxRange.innerHTML = "400 KM";
+        }
+
+    </script>
+</body>
+</html>
